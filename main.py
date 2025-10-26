@@ -841,7 +841,7 @@ async def txt_handler(bot: Client, m: Message):
                 cc = (
     f"<b>——— ✦</b> {str(count).zfill(3)}✦ ———\n\n"
     f"<b>🎞️ Tɪᴛʟᴇ :</b> {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.mkv</b>\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n"
     f"<b>├── Resolution : [854x480]</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY : {CR}</b>"
@@ -849,20 +849,20 @@ async def txt_handler(bot: Client, m: Message):
                 cc1 = (
     f"<b>——— ✦</b> {str(count).zfill(3)}✦ ———\n\n"
     f"<b>📚  Tɪᴛʟᴇ :</b> {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.pdf</b>\n\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY : {CR}</b>"
 )
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n' 
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by: **{CR}\n' 
                 ccimg = (
     f"<b>——— ✦<b>: {str(count).zfill(3)}✦ ——— \n\n"
     f"<b>🖼️  Tɪᴛʟᴇ</b> : {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.png</b>\n\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY: {CR}</b>"
 )
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by: **{CR}\n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by: **{CR}\n'
                   
                 if "drive" in url:
                     try:
@@ -1330,7 +1330,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🖇️ LNK » {url}\n" \
-                           f"🎓 Uploaded By » {CREDIT}"
+                           f"⚡Uploaded By » {CREDIT}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
